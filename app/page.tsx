@@ -1,6 +1,11 @@
+import { Button } from "@/components/ui/button"
+
+type Prop = {
+  name: string, age: number
+}
 
 export default function Home() {
   return (
-    <h1>haloo yanuar </h1>
+    <Button >test</Button>
   )
 }
